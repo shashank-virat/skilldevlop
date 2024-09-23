@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.scss" />
+    <link rel="stylesheet" href="homepage.css" />
+    <title>DIVINE HILLS</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="p-3 m-0 border-0 bd-example m-0 border-0">
+    <!-- Example Code -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">DIVINE HILLS</a>
+        <!-- Image and text -->
+        <nav class="navbar navbar">
+          <a class="navbar-brand" href="#">
+            <img class="logo"
+              src="images/logo.png"
+              width="60"
+              height="60"
+            
+              class="d-inline-block align-top"
+              alt=""
+            />
+          </a>
+        </nav>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="history.html">History</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+               Hritage Landmarks
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="landmarks.html">Landmarks and Historic Sites</a></li>
+                <li><a class="dropdown-item" href="cultural.html">Cultural Significance</a></li>
+                <li><hr class="dropdown-divider" /></li>
+               
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sign in.html">Logout</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+                class="form-control me-2 search-input"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+            />
+            <button class="btn btn-outline-success search-button" type="submit">
+                <i class="fa fa-search"></i> <!-- Search icon -->
+            </button>
+        </form>
+        
+        </div>
+      </div>
+    </nav>
+
+    <div
+  id="carouselExampleAutoplaying"
+  class="carousel slide"
+  data-bs-ride="carousel"
+>
+  <div class="carousel-inner">
+    <div class="carousel-item">
+      <video
+        class="d-block w-100"
+        style="object-fit: cover;"
+        width="100%"
+        height="600"
+        autoplay
+        muted
+        loop
+        playsinline
+      >
+        <source src="image/video1.webm" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="carousel-item active">
+      <video
+        class="d-block w-100"
+        style="object-fit: cover;"
+        width="100%"
+        height="600"
+        autoplay
+        muted
+        loop
+        playsinline
+      >
+        <source src="image/video2.webm" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="carousel-item">
+      <video
+        class="d-block w-100"
+        style="object-fit: cover;"
+        width="100%"
+        height="600"
+        autoplay
+        muted
+        loop
+        playsinline
+      >
+        <source src="image/video3.webm" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleAutoplaying"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleAutoplaying"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+      </div>
+    </div><br>
+    <div class="card mb-3" style="max-width: 100%;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="images/img6.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">About</h5>
+            <p class="card-text">Tirupati, located in southeastern Andhra Pradesh, is one of India’s most significant pilgrimage cities, mainly due to its proximity to the Tirumala Hills and the renowned Sri Venkateswara Swamy Temple. This temple, dedicated to Lord Venkateswara, an incarnation of Lord Vishnu, is among the wealthiest and holiest in the world, attracting millions of pilgrims annually. Known for its Dravidian architecture, the temple's gold-plated Ananda Nilayam adds to its grandeur. The famous ritual of tonsuring and the Tirupati Laddu prasadam, which holds a GI tag, further contribute to its cultural importance. The annual Brahmotsavam festival and the well-organized queue system enhance the spiritual experience.
+              Apart from religious significance, Tirupati is home to the Sri Padmavathi Ammavari Temple and landmarks like Kapila Theertham and the ancient Silathoranam rock arch. </p>
+              <a href="https://en.wikipedia.org/wiki/Tirumala" target="_change">
+                <button class="btn-1">Know More</button>
+              </a>
+              
+              
+          </div>
+        </div>
+      </div>
+    </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="images/img(history).jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">History</h5>
+            <p class="card-text">
+             
+Tirupati and Tirumala are renowned for the Sri Venkateswara Temple, built around the 9th century by Tamil kings and later developed by the Vijayanagara Empire. The sacred hills of Tirumala are believed to be one of the holiest places for Hindus.
+ Historical records suggest that the temple has been a pilgrimage site for over a thousand years
+            </p>
+            <a href="" target="_change">
+              <button class="btn-1">Know More</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/img(landmarks).jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Landmarks and Historic sites</h5>
+            <p class="card-text">
+              The Sri Venkateswara Temple is the most iconic landmark, drawing millions of devotees annually. Other notable sites include the Kapila Theertham Temple, Govindaraja Swamy Temple, 
+              and the ancient Sila Thoranam, a natural rock arch believed to be millions of years old.
+            </p>
+            <a href="" target="_change">
+              <button class="btn-1">Know More</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/img(culture).jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Cultural Significance</h5>
+            <p class="card-text">
+              Tirumala is a major center of Vaishnavism and holds immense spiritual significance. The deity, Lord Venkateswara, is considered an incarnation of Vishnu and is worshipped as the preserver of the universe. 
+              The region is a hub for Vedic traditions, ancient rituals, and Sanskrit learning.
+            </p>
+            <a href="" target="_change">
+              <button class="btn-1">Know More</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/img(festivals).jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Events and Festivals</h5>
+            <p class="card-text">
+              The most important festival is Brahmotsavam, a grand nine-day celebration where thousands gather to witness the procession of the deity. Other notable festivals include Vaikunta Ekadasi and Rathotsavam,
+               celebrated with great devotion and participation from pilgrims worldwide.
+            </p>
+            <a href="" target="_change">
+              <button class="btn-1">Know More</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div><br>
+    
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+      <!-- Section: Social media -->
+      <section class="custom-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <div class="me-5 d-none d-lg-block">
+              <span>Get connected with us on social networks:</span>
+          </div>
+         
+          <div class="social-icons d-flex justify-content-center">
+              <a href="" class="me-4 text-reset">
+                  <i class="fa fa-facebook"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                  <i class="fa fa-twitter"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                  <i class="fa fa-google"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                  <i class="fa fa-instagram"></i>
+              </a>
+          </div>
+      </section>
+      <!-- Section: Social media -->
+  </footer>
+  
+          
+         
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="foot">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content --><br>
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>About DIVINE HILLS
+              </h6>
+              <p>
+                
+"Divine Hills Tirumala is a sacred destination renowned for its rich spiritual heritage and breathtaking landscapes. It attracts millions of pilgrims 
+each year to experience the divine ambiance and cultural significance of the ancient Tirupati temple."
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links --><br>
+              <h6 class="text-uppercase fw-bold mb-4">Navigation</h6>
+              <p>
+                <a href="#!" class="text-reset">History</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Landmarks and Historic sites</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Cultural Significance</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Contact</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+           
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links --><br>
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p>
+                  <a href="https://www.google.com/maps/search/?api=1&query=Tirupati&Tirumala" target="_blank" class="text-reset">
+                      <i class="fa fa-home me-3"></i>Tirupati&Tirumala
+                  </a>
+              </p>
+              <p>
+                  <a href="mailto:Divinehills@gmail.com" class="text-reset">
+                      <i class="fa fa-envelope me-3"></i>Divinehills@gmail.com
+                  </a>
+              </p>
+              <p>
+                  <a href="tel:+01234567888" class="text-reset">
+                      <i class="fa fa-phone me-3"></i>+91 9083737823
+                  </a>
+              </p>
+          </div>
+          
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright --><br>
+      <div
+        class="text-center p-4"
+        style="background-color: black"
+      >
+       <p class="copy" > © 2024 Copyright:</p>
+        
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <script>
+      
+      const carousel = new bootstrap.Carousel("#myCarousel");
+      // Wait for 2 seconds after the page has fully loaded
+
+
+    </script>
+    <!-- End Example Code -->
+  </body>
+</html>

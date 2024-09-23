@@ -1,0 +1,249 @@
+.container-fluid {
+  background-color: #7888de;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 197, 61) 0%,
+    rgb(255, 94, 7) 90%
+  );
+  border-radius: 10px;
+}
+
+
+.navbar-brand {
+  font-size: 25px;
+
+  font-weight: bolder;
+  font-family: "Sofadi One", system-ui;
+}
+
+.carousel-inner {
+  border-radius: 10px;
+}
+
+.nav-link {
+  color: #000;
+  transition: color 0.3s ease, width 0.3s ease;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: wheat;
+  text-decoration: none;
+}
+
+.nav-link:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: "";
+  background: grey;
+  height: 2px;
+  transition: width 0.9s ease; /* Smooth transition for underline */
+}
+
+.nav-link:hover:after {
+  width: 100%;
+}
+
+.nav-link.active {
+  color: #007bff; /* Active link color */
+}
+.col-md-8 {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(214, 150, 0) 0%,
+    rgb(226, 83, 5) 90%
+  );
+}
+/* Basic button styles */
+.btn-1 {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 10px;
+}
+
+/* Hover effect */
+.btn-1:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card-text {
+  font-size: 16px;
+  font-family: "Merriweather", serif;
+  color: black;
+}
+.card-title {
+  font-size: 25px;
+  font-family: "Sofadi One", system-ui;
+  font-weight: bolder;
+  color: black;
+}
+.carousel-item {
+  position: relative;
+  text-align: center;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.card {
+  width: 100%;
+  height: 100%;
+}
+.card-img-top {
+  width: 100%;
+  height: 600px;
+}
+.card-body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(214, 150, 0) 0%,
+    rgb(226, 83, 5) 90%
+  );
+}
+/* General styling for icons */
+a i {
+  font-size: 24px; /* Adjust size as needed */
+  padding: 8px; /* Space inside the border */
+  border: 2px solid; /* Visible border */
+  border-radius: 50%; /* Circular border */
+  transition: color 0.3s ease, border-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Default border color and icon color */
+a i.fa-facebook {
+  color: #3b5998; /* Facebook icon color */
+  border-color: #3b5998;
+  /* Facebook border color */
+}
+
+a i.fa-twitter {
+  color: #00acee; /* Twitter icon color */
+  border-color: #00acee; /* Twitter border color */
+}
+
+a i.fa-google {
+  color: #db4437; /* Google icon color */
+  border-color: #db4437; /* Google border color */
+}
+
+a i.fa-instagram {
+  color: #e1306c; /* Instagram icon color */
+  border-color: #e1306c; /* Instagram border color */
+}
+
+/* Hover effects - Change only the color */
+a i.fa-facebook:hover {
+  color: #fff; /* White color on hover */
+  background-color: #3b5998; /* Background color on hover */
+}
+
+a i.fa-twitter:hover {
+  color: #fff; /* White color on hover */
+  background-color: #00acee; /* Background color on hover */
+}
+
+a i.fa-google:hover {
+  color: #fff; /* White color on hover */
+  background-color: #db4437; /* Background color on hover */
+}
+
+a i.fa-instagram:hover {
+  color: #fff; /* White color on hover */
+  background-color: #e1306c; /* Background color on hover */
+}
+.copy {
+  color: rgb(255, 94, 70);
+  "Sofadi One", system-ui
+}
+.foot {
+  background-color: #000;
+  color: rgb(255, 94, 70);
+  border-radius: 20px 0px;
+}
+.text-center {
+  border-radius: 20px 0px;
+}
+.custom-flex {
+  background-color: black;
+  color: #db4437;
+  border-radius: 20px 0px;
+}
+
+.text-reset {
+  text-decoration: none;
+  color: rgba(255, 94, 7, 0.9);
+  transition: color 0.3s;
+}
+
+.text-reset:hover {
+  color: rgba(255, 255, 255, 1);
+}
+/* Contact link styles */
+.text-reset {
+  text-decoration: none; /* Removes the underline */
+  color: rgba(255, 94, 7, 0.9); /* Initial text color */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+/* Change text color on hover */
+.text-reset:hover {
+  color: rgba(255, 255, 255, 1); /* Change text to white on hover */
+}
+
+/* Icon styling */
+.text-reset i {
+  margin-right: 8px; /* Space between icon and text */
+  color: rgba(255, 94, 7, 0.9); /* Ensure icon color matches text color */
+  transition: color 0.3s; /* Smooth color transition for the icon */
+}
+
+/* Keep icon color the same on hover */
+.text-reset:hover i {
+  color: rgba(255, 255, 255, 1); /* Change icon color to white on hover */
+}
+/* Style for the search input */
+.search-input {
+  width: 200px; /* Adjust width as needed */
+  height: 36px; /* Adjust height as needed */
+  padding: 0.5rem; /* Padding inside the input */
+}
+
+/* Style for the button */
+.search-button {
+  padding: 0.5rem 0.75rem; /* Adjust button padding */
+  height: 36px; /* Match height of input */
+  display: flex; /* Center icon vertically */
+  align-items: center; /* Center icon vertically */
+}
+
+/* Optional: Remove border and background from the button */
+.search-button {
+  border: none;
+  background: black; /* Makes the button background transparent */
+}
+
+/* Change icon color and size */
+.search-button i {
+  color: rgba(255, 94, 7, 0.9); /* Icon color */
+  font-size: 16px; /* Adjust icon size as needed */
+}
+.text-uppercase{
+  font-family: "Sofadi One", system-ui;
+  font-weight: bolder;
+}
+.text-reset{
+  font-family: "Sofadi One", system-ui;
+}
